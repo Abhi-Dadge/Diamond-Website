@@ -1,16 +1,16 @@
-/* Global */
+ 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
-/* Navbar */
+ 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background: #0b1f3a; /* dark blue like screenshot */
+  background: #0b1f3a;  
   color: white;
 }
 
@@ -19,8 +19,7 @@ body {
   font-weight: bold;
   color: white;
 }
-
-/* Nav Links */
+ 
 .nav-links {
   display: flex;
   align-items: center;
@@ -39,7 +38,7 @@ body {
   color: #cbd5e1;
 }
 
-/* Hero */
+ 
 .hero {
   height: 450px;
   background: url("https://images.unsplash.com/photo-1617038220319-276d3cfab638")
@@ -64,7 +63,7 @@ body {
   line-height: 1.6;
 }
 
-/* Values */
+ 
 .values {
   padding: 50px;
   text-align: center;
@@ -85,7 +84,7 @@ body {
   border-radius: 8px;
 }
 
-/* Impact */
+ 
 .impact {
   display: flex;
   align-items: center;
