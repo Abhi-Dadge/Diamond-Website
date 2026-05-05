@@ -11,3 +11,7 @@ Technologies used:
 ## Home Page Preview
 
 ![Home Screenshot](./assets/home.png)
+
+## Careers Page Preview
+
+![Careers Screenshot](./assets/careers.png)
