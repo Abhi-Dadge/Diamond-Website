@@ -1,76 +1,112 @@
+/* Global */
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
 }
 
 /* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 15px 40px;
-  background: black;
+  background: #0b1f3a; /* dark blue like screenshot */
   color: white;
 }
 
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .nav-links a {
-  margin: 0 10px;
   color: white;
   text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #cbd5e1;
 }
 
 /* Hero */
 .hero {
-  height: 400px;
+  height: 450px;
   background: url("https://images.unsplash.com/photo-1617038220319-276d3cfab638")
     center/cover no-repeat;
   display: flex;
   align-items: center;
-  padding: 40px;
+  padding: 60px;
   color: white;
 }
 
 .hero-text {
-  max-width: 500px;
+  max-width: 550px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 /* Values */
 .values {
-  padding: 40px;
+  padding: 50px;
   text-align: center;
 }
 
 .value-boxes {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
   margin-top: 20px;
 }
 
 .box {
-  background: black;
+  background: #0b1f3a;
   color: white;
   padding: 30px;
-  width: 150px;
+  width: 160px;
+  border-radius: 8px;
 }
 
 /* Impact */
 .impact {
   display: flex;
-  padding: 40px;
+  align-items: center;
+  padding: 50px;
   background: #2d4a8a;
   color: white;
 }
 
 .impact-left img {
-  width: 300px;
+  width: 320px;
+  border-radius: 10px;
 }
 
 .impact-right {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
-.nav-links a {
-  margin: 0 10px;
-  color: white;
-  text-decoration: none;
+.impact-right h2 {
+  margin-bottom: 10px;
+}
+
+.impact-right p {
+  line-height: 1.6;
 }
