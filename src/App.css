@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: Arial;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Navbar */
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Hero */
+.hero {
+  height: 400px;
+  background: url("https://images.unsplash.com/photo-1617038220319-276d3cfab638")
+    center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  color: white;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+/* Values */
+.values {
+  padding: 40px;
+  text-align: center;
+}
+
+.value-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.box {
+  background: black;
+  color: white;
+  padding: 30px;
+  width: 150px;
+}
+
+/* Impact */
+.impact {
+  display: flex;
+  padding: 40px;
+  background: #2d4a8a;
+  color: white;
+}
+
+.impact-left img {
+  width: 300px;
+}
+
+.impact-right {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
 }
